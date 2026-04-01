@@ -10,7 +10,7 @@ This is a Django-based website that includes a contact form and portfolio featur
 - Responsive design
 - Django backend
 
-## etup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    git clone https://github.com/yourusername/your-repo-name.git
