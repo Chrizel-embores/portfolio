@@ -1,0 +1,660 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Chrizel Ann M. Embores</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  
+  <link href="{%static 'assets/css/main.css' %}" rel="stylesheet">
+
+  
+</head>
+
+<body class="index-page">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <header id="header" class="header d-flex flex-column" style="background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%)">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="{%static 'assets/img/cringkles.jpg' %}" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename" style="color: #fff; font-size: 1.2rem;">CHRIZEL ANN M. EMBORES</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.tiktok.com/@cringklessssss?_r=1&_t=ZS=95828B3KgY0" target="_blank" style="text-decoration:none;">
+      <i class="bi bi-tiktok" style="font-size: 24px; color: #fff;"></i></a>
+      <a href="https://www.facebook.com/chrizelann.embores" target="_blank" style="text-decoration:none;">
+      <i class="bi bi-facebook" style="font-size: 24px; color: #fff;"></i></a>
+      <a href="https://www.instagram.com/cringggg.klessssss?igsh=bDIyM2pkdHVpcmo0" target="_blank" style="text-decoration:none;">
+      <i class="bi bi-instagram" style="font-size: 24px; color: #fff;"></i></a>
+      <a href="https://www.linkedin.com/in/chrizel-ann-embores-85b0302b8" target="_blank" style="text-decoration:none;">
+      <i class="bi bi-linkedin" style="font-size: 24px; color: #fff;"></i></a>
+      <a href="https://github.com/Chrizel-embores" target="_blank" style="text-decoration:none;">
+      <i class="bi bi-github" style="font-size: 24px; color: #fff;"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" style="color: #fff; font-size: 1.2rem;"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about" style="color: #fff; font-size: 1.2rem;"><i class="bi bi-person navicon"></i> About</a></li>
+        <li>
+        <a href="#education" style="color: #fff; font-size: 1.2rem;"><i class="bi bi-mortarboard-fill navicon"></i> Education</a>
+        </li>
+        <li><a href="#skills" id="skillsBtn" style="color: #fff; font-size: 1.2rem;"><i class="bi bi-bar-chart-line navicon"></i> Skills</a></li>
+        <li><a href="#resume"style="color: #fff; font-size: 1.2rem;"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li>
+        <a href="#projects" style="color: #fff; font-size: 1.2rem;"><i class="bi bi-kanban navicon"></i> Projects
+        </a>
+        </li>
+        </li>
+        <li><a href="#contact" style="color: #fff; font-size: 1.2rem;"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+
+    <section id="hero" class="hero section dark-background">
+
+      <img src="{% static 'assets/img/cringkles.jpg' %}" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h5 style="ont-family: 'Quicksand', sans-serif; font-weight: 900; font-size: 1.5rem;">
+            Chrizel Ann M. Embores
+        </h5>
+        <p>She's a <span class="typed" data-typed-items="designer, developer, freelancer, writer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section>
+  
+  <section id="about" class="about section" 
+style="background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%); padding: 30px 0; margin-bottom: 0; font-family: 'Quicksand', sans-serif;">
+
+  <div class="container section-title" data-aos="fade-up" style="margin-bottom: 0; padding-bottom: 0;">
+    
+    <h2 style="color: #FFB6C1; font-size: 3rem; margin-bottom: 10px;">About</h2>
+
+    <p style="color: #fff; font-size: 1.2rem; margin-bottom: 0;">
+      <strong>Chrizel Ann M. Embores</strong> is a <strong>21 year old</strong> and a student of <strong>Negros Oriental State University-Bayawan Sta.Catalina Campus</strong>. She was born on <strong>August 30, 2004</strong> and resides at <strong>Gamao, Narra, Bayawan City, Negros Oriental</strong>. She has a strong foundation in discipline and creativity. She is passionate about programming, particularly in <strong>Python</strong>, continuously enhancing her skills through projects and advanced concepts. She also has a solid background in <strong>graphic design</strong>. Alongside her technical skills, she demonstrates excellent <strong>communication</strong> abilities, collaborates effectively, and handles <strong>multi-tasking</strong> in dynamic environments. Recognized for her strong <strong>problem-solving</strong> capabilities, she applies critical thinking and creativity to develop innovative solutions and consistently strives for high-quality, impactful results.
+    </p>
+
+  </div>
+
+</section>
+<section id="education" class="education section" style="background: linear-gradient(135deg, #2a0048 0%, #7b006f 100%); font-family: 'Quicksand', sans-serif;">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2 style="color: #FF69B4; font-size: 3rem;">Educational Background/Attainment</h2>
+    <p style="font-size: 1.2rem; color: #f0e6f0;">
+      
+  </div>
+
+  <div class="container">
+    <div class="row gy-4">
+<div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow p-3 mb-5 rounded-4 project-card" style="background-color: #4b005b; border-left: 5px solid #FF69B4;">
+          <div class="icon text-center mb-3">
+            <i class="bi bi-mortarboard-fill" style="font-size: 2.5rem; color: #FF69B4;"></i>
+          </div>
+          <h4 class="title text-center">
+            <a href="#" class="stretched-link text-decoration-none" style="color: #FF69B4;">ELEMENTARY</a>
+          </h4>
+          <p class="description text-center text-light d-block">
+            <div class="text-center d-block mb-2 text-light">
+            <strong>Bacong Central School</strong> (2012-2014)
+            </div>
+
+            <div class="text-center d-block text-light">
+            <a><strong>Gamao Elementary School</strong> (2014-2016)</a>
+            </div>
+           
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 shadow p-3 mb-5 rounded-4 project-card" style="background-color: #4b005b; border-left: 5px solid #FF69B4;">
+          <div class="icon text-center mb-3">
+            <i class="bi bi-award-fill" style="font-size: 2.5rem; color: #FF69B4;"></i>
+          </div>
+          <h4 class="title text-center">
+            <a href="#" class="stretched-link text-decoration-none" style="color: #FF69B4;">HIGH SCHOOL & SENIOR HIGH SCHOOL</a>
+          </h4>
+          <p class="description text-center text-light">
+            <div class="text-center d-block mb-2 text-light">
+            <strong>Abundio Agarpao Senior Memorial High School</strong> (2016-2020)
+            </div>
+            <div class="text-center d-block text-light">
+            <a><strong>Byawan National Highschool-SHS</strong> (2020-2023)</a>
+            </div>
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow p-3 mb-5 rounded-4 project-card" style="background-color: #4b005b; border-left: 5px solid #FF69B4;">
+          <div class="icon text-center mb-3">
+            <i class="bi bi-patch-check-fill" style="font-size: 2.5rem; color: #FF69B4;"></i>
+          </div>
+          <h4 class="title text-center">
+            <a href="#" class="stretched-link text-decoration-none" style="color: #FF69B4;">COLLLEGE</a>
+          </h4>
+          <p class="description text-center text-light">
+             <div class="text-center d-block text-light">
+            <a><strong>Negros Oriental State University-Bayawan Sta.Catalina Campus(NORSU-BSC)</strong> (2023-Present)</a>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.project-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 25px rgba(255, 105, 180, 0.6); /* Pink glow */
+  border-color: #ff33cc;
+}
+
+.project-card .title a {
+  transition: color 0.3s ease;
+}
+
+.project-card .title a:hover {
+  color: #ff33cc; /* Bri
+}
+</style>
+
+
+
+
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100" styele="background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%);">
+    <div class="row gy-4 justify-content-center">
+
+      
+<section id="skills" class="skills section" style="font-family: 'Quicksand', sans-serif; background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%);">
+  
+  <div class="container section-title" data-aos="fade-up">
+    <h2 style="font-size: 3rem; color: #FFB6C1;">Skills</h2>
+    <p style="font-size: 1.2rem; color: #fff;">Here’s a visual representation of my core skills and proficiency levels.</p>
+  </div>
+
+  <div class="container d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+    
+    <canvas id="skillsPieChart" style="width: 100%; max-width: 800px; height: 600px;"></canvas>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  const ctx = document.getElementById('skillsPieChart').getContext('2d');
+  const skillsPieChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['HTML', 'CSS', 'Python', 'PHP', 'Illustrator', 'Photoshop'],
+      datasets: [{
+        label: 'Skill Proficiency',
+        data: [100, 90, 75, 80, 90, 55],
+        backgroundColor: [
+          '#FF69B4', 
+          '#BA55D3', 
+          '#FF1493', 
+          '#9400D3', 
+          '#FF69B4',
+          '#DA70D6'  
+        ],
+        borderColor: '#fff',
+        borderWidth: 3
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '30%',
+      animation: {
+        animateRotate: true,
+        animateScale: true
+      },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: {
+              size: 20,
+              weight: 'bold'
+            },
+            color: '#fff' // legend text in white
+          }
+        },
+        tooltip: {
+          bodyFont: {
+            size: 18
+          },
+          callbacks: {
+            label: function(context) {
+              return context.label + ': ' + context.raw + '%';
+            }
+          }
+        }
+      }
+    }
+  });
+</script>
+<section id="resume" class="resume section" style="margin-top:0; padding-top:20px; margin-bottom:0;background: linear-gradient(135deg, #3a0055 0%, #a0007f 100%); font-family: 'Quicksand', sans-serif; color: #f5e6f5;">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2 style="color: #FF69B4; font-size: 3rem; font-family: 'Quicksand', sans-serif;">Resume</h2>
+    <p style="font-size: 1.2rem; color: #f0e6f0;">
+      Under is the additional information about her including her certificates and extracurricular activities that may add as her credentials or qualifications for the job.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        
+        <h3 class="resume-title" style="font-family: 'Quicksand', sans-serif; color: #FFB6C1;">Summary</h3>
+        <div class="resume-item pb-0" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid #FF69B4; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+          <h4 style="color: #ffffff;">Chrizel Ann Embores</h4>
+          <p><em>a proactive and detail-oriented professional with a track record of delivering high-quality digital and design projects. She has demonstrated the ability to lead small teams, manage complex workflows, and meet tight deadlines with precision. Skilled in translating ideas into practical solutions, she consistently applies critical thinking and creativity to optimize processes and enhance project outcomes. Her adaptability, professionalism, and commitment to excellence make her a reliable asset in collaborative and challenging environments.</em></p>
+          <ul>
+            <li>Gamao, Narra, Bayawan City</li>
+            <li>09946564801</li>
+            <li>chryxxhhss@gmail.com</li>
+          </ul>
+        </div>
+
+        <h3 class="resume-title" style="font-family: 'Quicksand', sans-serif; color: #FFB6C1;">Certificates</h3>
+        <div class="resume-item" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid #FF69B4; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+          <h4 style="color: #ffffff;">Python Skill-up Completer</h4>
+         <h4 style="color: #ffffff;">2025</h4>
+          <p><em>Geeks for Geeks</em></p>
+          <p>Python Skill‑Up on GeeksforGeeks is about upgrading your Python coding proficiency through guided lessons, practice, and assessment, helping learners go from beginner to confident coder.</p>
+        </div>
+
+        <div class="resume-item" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid #FF69B4; border-radius: 10px; padding: 15px;">
+          <img src="{% static 'assets/img/1774525297105.jpg' %}" alt="Certificate" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+        </div>
+
+      </div>
+
+      
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        
+        <h3 class="resume-title" style="font-family: 'Quicksand', sans-serif; color: #FFB6C1;">Extracurricular Activities</h3>
+
+        <div class="resume-item" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid #FF69B4; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+          <h4 style="color: #ffffff;">Seminar and Workshop</h4>
+          <h4 style="color: #ffffff;">2025</h4>
+          <p><em>NORSU (AVR)</em></p>
+          <ul>
+            <li>Learned to design, develop, and implement projects using Arduino ESP32 to control devices remotely.</li>
+            <li>Practiced connecting devices to Wi-Fi to turn lights on and off efficiently.</li>
+            <li>Supervised and tested hardware and software integration to ensure proper functionality of circuits and devices.</li>
+            <li>Managed time and resources effectively to complete workshop tasks and experiments successfully.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid #FF69B4; border-radius: 10px; padding: 15px; margin-bottom: 20px;">
+          <h4 style="color: #ffffff;">Python Skill-up Webinar</h4>
+          <h4 style="color: #ffffff;">2025</h4>
+          <p><em>Via Google Zoom</em></p>
+          <ul>
+            <li>Developed numerous Python programs (loops, functions, lists, dictionaries, and scripts).</li>
+            <li>Managed up to 5 coding exercises or challenges at a given time while under guidance</li>
+            <li>Recommended and consulted on the most appropriate Python methods and solutions</li>
+            <li>Created 4+ Python projects and small scripts a month for practice and learning</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid #FF69B4; border-radius: 10px; padding: 15px;">
+          <h4 style="color: #ffffff;">Trailblazer Webinar</h4>
+          <h4 style="color: #ffffff;">2025</h4>
+          <p><em>Via Google Zoom</em></p>
+          <ul>
+            <li>Developed numerous Salesforce workflows (reports, dashboards, automation, apps, and integrations).</li>
+            <li>Managed up to 5 Trailblazer exercises or modules at a given time while under guidance</li>
+            <li>Recommended and consulted on the most appropriate Salesforce solutions for tasks</li>
+            <li>Acquired experience in designing efficient dashboards while applying automation concepts in a guided Trailblazer webinar</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<body style="margin:0; background:#3a0055;"></body>
+   
+        </div>
+
+      </div>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+
+<section id="projects" class="projects section" style="background: linear-gradient(135deg, #2a0048 0%, #7b006f 100%); font-family: 'Quicksand', sans-serif;">
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2 style="color: #FF69B4; font-size: 3rem;">Projects</h2>
+    <p style="font-size: 1.2rem; color: #f0e6f0;">
+      Here are some of the projects I have completed, highlighting my skills in web development, IoT, Python programming, and graphic design. Each project demonstrates practical implementation and problem-solving ability.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4">
+
+      
+      <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100 shadow p-3 mb-5 rounded-4 project-card" style="background-color: #4b005b; border-left: 5px solid #FF69B4;">
+          <div class="icon text-center mb-3">
+            <i class="bi bi-lightbulb-fill" style="font-size: 2.5rem; color: #FF69B4;"></i>
+          </div>
+          <h4 class="title text-center">
+            <a href="#" class="stretched-link text-decoration-none" style="color: #FF69B4;">Arduino ESP32 IoT Project</a>
+          </h4>
+          <p class="description text-center text-light">
+            Built a Wi-Fi controlled lighting system using Arduino ESP32. Enabled remote switching and automation for smart home applications.
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100 shadow p-3 mb-5 rounded-4 project-card" style="background-color: #4b005b; border-left: 5px solid #FF69B4;">
+          <div class="icon text-center mb-3">
+            <i class="bi bi-code-slash" style="font-size: 2.5rem; color: #FF69B4;"></i>
+          </div>
+          <h4 class="title text-center">
+            <a href="#" class="stretched-link text-decoration-none" style="color: #FF69B4;">Python Automation Scripts</a>
+          </h4>
+          <p class="description text-center text-light">
+            Developed Python scripts for data processing and task automation. Implemented solutions to streamline repetitive workflows efficiently.
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-4 col-md-6 project-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100 shadow p-3 mb-5 rounded-4 project-card" style="background-color: #4b005b; border-left: 5px solid #FF69B4;">
+          <div class="icon text-center mb-3">
+            <i class="bi bi-browser-safari" style="font-size: 2.5rem; color: #FF69B4;"></i>
+          </div>
+          <h4 class="title text-center">
+            <a href="#" class="stretched-link text-decoration-none" style="color: #FF69B4;">Responsive Web Design</a>
+          </h4>
+          <p class="description text-center text-light">
+            Created fully responsive websites using HTML, CSS, and PHP. Focused on user experience, accessibility, and mobile optimization.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.project-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 25px rgba(255, 105, 180, 0.6); /* Pink glow */
+  border-color: #ff33cc;
+}
+
+.project-card .title a {
+  transition: color 0.3s ease;
+}
+
+.project-card .title a:hover {
+  color: #ff33cc; /* Bri
+}
+</style>
+
+
+    
+    <section id="contact" class="contact section" style="margin-top:0; padding-top:20px; margin-bottom:-20px;background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%); padding: 50px 0; font-family: 'Roboto', sans-serif;">
+      
+
+      <div class="container section-title" data-aos="fade-up">
+       <h2 style="color: #FF69B4; font-size: 3rem;">Contacts</h2>
+      <p style="font-size: 1.2rem; color: #f0e6f0;">
+      If you are interested to work with me kindly contact any of the following listed.
+    </p>
+      </div>
+
+      <div class="container contact-card-container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+
+      <div class="col-lg-5">
+
+      <div class="info-wrap" style="background-color: #4b005b; border-left: 15px solid #FF69B4; border-radius: 15px; padding: 20px;">
+
+      <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+      <i class="bi bi-geo-alt flex-shrink-0" style="color: #FF69B4;"></i>
+      <div>
+        <h3 style="color: #FF69B4;">Address</h3>
+        <p style="color: #ffffff;">Gamao, Narra, Bayawan City, Negros Oriental</p>
+      </div>
+    </div><!-- End Info Item -->
+
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+      <i class="bi bi-telephone flex-shrink-0" style="color: #FF69B4;"></i>
+      <div>
+        <h3 style="color: #FF69B4;">Call</h3>
+        <p style="color: #ffffff;">09946564801</p>
+      </div>
+    </div><!-- End Info Item -->
+
+    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+      <i class="bi bi-envelope flex-shrink-0" style="color: #FF69B4;"></i>
+      <div>
+        <h3 style="color: #FF69B4;">Email</h3>
+        <p style="color: #ffffff;">chryxxhhss@gmail.com</p>
+      </div>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1473.996069074296!2d122.89480400633025!3d9.500260448566454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x33ac8968b1121ef1%3A0xa856a0557bc55b55!2sPEKDA%20CHURCH%20GAMAO%20TRIBO%2C%20FVXV%2BWXW%2C%20Bayawan%20City%2C%20Negros%20Oriental!3m2!1d9.499791!2d122.8950218!4m5!1s0x33ac8968b1121ef1%3A0xa856a0557bc55b55!2sPEKDA%20CHURCH%20GAMAO%20TRIBO%2C%20FVXV%2BWXW%2C%20Bayawan%20City%2C%20Negros%20Oriental!3m2!1d9.499791!2d122.8950218!5e0!3m2!1sen!2sph!4v1774787571459!5m2!1sen!2sph"  
+    frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+
+         
+<div class="col-lg-7">
+    
+    <form id="contact-form">
+  <div class="row gy-4">
+
+    <div class="col-md-6">
+      <label class="pb-2" style="color: #FF69B4;">Name</label>
+      <input type="text" name="name" class="form-control" required>
+    </div>
+
+    <div class="col-md-6">
+      <label class="pb-2" style="color: #FF69B4;">Email</label>
+      <input type="text" name="email" class="form-control" required>
+    </div>
+
+    <div class="col-md-12">
+      <label class="pb-2" style="color: #FF69B4;">Subject</label>
+      <input type="text" name="subject" class="form-control" required>
+    </div>
+
+    <div class="col-md-12">
+      <label class="pb-2" style="color: #FF69B4;">Message</label>
+      <textarea name="message" rows="10" class="form-control" required></textarea>
+    </div>
+
+   <div class="col-md-12 text-center">
+  <p id="statusMessage"></p>
+
+  <button type="submit"
+    style="
+      background-color: #FF69B4;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: all 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 18px rgba(0,0,0,0.2)'; this.style.backgroundColor='#ff4fa3';"
+    onmouseout="this.style.transform='translateY(0px)'; this.style.boxShadow='0 4px 10px rgba(0,0,0,0.15)'; this.style.backgroundColor='#FF69B4';"
+    onmousedown="this.style.transform='translateY(1px)'; this.style.boxShadow='0 3px 6px rgba(0,0,0,0.15)';"
+    onmouseup="this.style.transform='translateY(-2px)';">Send Message</button>
+
+</div>
+  </div>
+
+</form>  
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+<style>
+  .contact-card-container .info-wrap,
+.contact-card-container .php-email-form {
+  background-color: #4b005b;
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.contact-card-container .info-wrap:hover,
+.contact-card-container .php-email-form:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(255, 105, 180, 0.35);
+}
+
+    </style>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background" style="padding-top:1px; padding-bottom:1px;margin-bottom:0;background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%);" >
+
+    <div class="container" style="margin-top:-100; padding-top:20px; margin-bottom:0;background: linear-gradient(135deg, #4B0082 0%, #FF1493 100%); padding: 50px 0; font-family: 'Roboto', sans-serif;">>
+      <div class="copyright text-center " style="font-size: 1.2rem; color: #f0e6f0;">
+        <p>All rights reserved 2026</p>
+      </div>
+      <div class="credits" style="font-size: 1.2rem; color: #f0e6f0;">
+        
+        Designed by <a href="https://bootstrapmade.com/">Chrizel Ann Embores</a> Distributed by <a href="https://themewagon.com">Django</a>
+      </div>
+    </div>
+
+  </footer>
+
+ 
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <div id="preloader"></div>
+
+ 
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  
+  <script src="{% static 'assets/js/main.js' %}"></script>
+ 
+
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var typed = new Typed('.typed', {
+      strings: ["designer", "developer", "freelancer", "writer"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 1500,
+      loop: true
+    });
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  emailjs.init("42o26MMXq4O03jzhJ");
+
+  const form = document.getElementById("contact-form");
+  const status = document.getElementById("statusMessage");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    emailjs.sendForm("service_ohw5lrp", "template_9y79k4n", form)
+      .then(function (response) {
+        status.innerText = "✅ Message sent successfully!";
+        form.reset();
+        console.log("SUCCESS:", response);
+      })
+      .catch(function (error) {
+        status.innerText = "❌ Failed to send: " + JSON.stringify(error);
+        console.log("ERROR DETAILS:", error);
+      });
+  });
+
+});
+</script>
+</body>
+</html>
+</body>
+
+</html>
